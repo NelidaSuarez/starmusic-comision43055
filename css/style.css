@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&family=Fontdiner+Swanky&display=swap');
+
+/* tipografias
+font-family: 'Arimo', sans-serif;
+font-family: 'Fontdiner Swanky', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #7F6C9C ;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+    z-index: 5;}
+.socials li{
+    font-weight: 600;
+    padding-right: 10px;
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;        
+}
+.socials li a{
+    color: white;
+    font-size: 1.5rem;
+    transition: color .4s ease
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 0;
+}
+
+p{ 
+    color: white;
+    text-align: center;    
+    font-family: 'Arimo', sans-serif;
+    font-size: 36px ;
+}
+.p2{
+    font-family: 'Fontdiner Swanky', cursive;
+    color: black;
+    -webkit-text-stroke: 0.25px rgb(153, 37, 220);
+    font-size: 80px;
+    margin-top: 100px;
+
+}
+
+.pagina {
+    background: url(https://images.unsplash.com/photo-1516450137517-162bfbeb8dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+main h1{
+    color: white;
+    text-align: center; 
+    font-size: 150px;
+    letter-spacing: 12px;
+    font-family: 'Fontdiner Swanky', cursive;
+    -webkit-text-stroke: 2px violet;
+}
+
+main h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.boton1{
+    display: flex;
+    justify-content: center; 
+}
+
+.boton{
+    border: 1px solid #7F6C9C;
+    padding: 10px;
+    background-color: #7F6C9C;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Fontdiner Swanky', cursive;
+    border-radius: 50px; 
+    font-size: 25px;   
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagina-2{
+    background: url(https://img.freepik.com/free-vector/musical-background-vector_23-2147498345.jpg?1&w=740&t=st=1691639372~exp=1691639972~hmac=0ab57265f9a4d5b5258c01d0c2a99c5a219ac88020204ce85939827cc0b367a3) ;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+}
+.cardd-conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 250px;
+    font-size: 36px;
+    margin-top: 100px;
+}
+.carta{
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(153, 37, 220);
+    box-shadow: 2px 2px 5px rgb(62, 61, 61);
+    border-radius: 50%;
+    font-family: 'Fontdiner Swanky', cursive;
+    line-height: 250px;
+}
+
+.c1{
+    background: url(../assets/img/que\ es.jpg);
+}
+.c2{
+    background: url(../assets/img/historia.jpg);
+}
+.c3{
+    background: url(../assets/img/genero.jpg);
+}
+.c4{
+    background: url(../assets/img/galeria.jpg);
+}
+.c5{
+    background: url(../assets/img/videos.jpg);
+}
+
+.botonp2{
+    display: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Fontdiner Swanky', cursive;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagina-3{
+    background: url(../assets/img/fondoquees.avif);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+}
+.caja-gral{
+    display: grid;
+    grid-template-columns: auto  auto;;  
+}
+.caja-conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    width: 700px;
+    height: 800px;
+    margin-left: 25px;
+    border: 4px solid white;
+    box-shadow: 3px 3px 5px rgb(62, 61, 61);
+    border-radius: 5%;
+    background-color: bisque;
+}
+
+.caja-guitarra{
+    display: flex;
+    flex-flow: row wrap;    
+    width: 550px;
+    height: 350px;
+    margin-top: 50px;
+    margin-right: 25px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 5px rgb(62, 61, 61);
+    border-radius: 7%;    
+}
+
+.videohistoria{
+    margin-top: 50px;
+    width: 550px;
+    height: 300px;
+}
+
+figcaption{
+
+    font-size: 18px;
+    text-indent: 4px;
+    font-family: 'Arimo', sans-serif, bold;
+    font-family: bold;
+    color: black;
+    
+}
+
+.textoo{
+    color: rgb(0, 0, 0);
+    text-align:left;
+    text-indent: 4px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 21px ;
+    text-indent: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagina-4{
+    background: url(https://images.unsplash.com/photo-1542407424724-5426773d65a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+}
+.caja-conteiner1{
+    display: flex;
+    margin: auto;    
+    width: 500px;
+    height: 900px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px rgb(62, 61, 61);
+    border-radius: 10%;
+    background-color: bisque;
+    text-align: center;
+}
+
+.fig{
+    color: rgb(255, 255, 255);
+    font-weight: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagina-5{
+    background: url(https://images.unsplash.com/photo-1581095146373-cd331553812f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.p4{
+    font-family: 'Fontdiner Swanky', cursive;
+    color: black;
+    -webkit-text-stroke: 0.25px white;
+    font-size: 65px;
+    margin-top: 50px;
+}
+
+.flex-genero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-generos{  
+    width: 1100px;
+    height: 500px;
+    margin-top: 100px;
+    background-image: url(../assets/img/genero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px rgb(62, 61, 61);
+    border-radius: 5%;
+}
+
+.li{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content:space-around; 
+    font-size: 27px;
+    font-family: 'Fontdiner Swanky', cursive;
+    color:#ffffff;
+    list-style: none;
+    
+}
+.lista{
+    margin-top: 35px;
+}
+
+.list{
+    font-size: 27px;
+    font-family: 'Fontdiner Swanky', cursive;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.pagina-6{
+    background-color: rgb(245, 221, 240);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.p5{
+    font-family: 'Fontdiner Swanky', cursive;
+    color: black;
+    -webkit-text-stroke: 0.25px rgb(153, 37, 220);
+    font-size: 80px;
+    margin-top: 100px;
+}
+.color1{
+    background-color: #f5f1788c;
+}
+.color2{
+    background-color: rgba(224, 177, 244, 0.496);
+}
+.color3{
+    background-color: aquamarine;
+}
+.color4{
+    background-color: rgba(172, 146, 244, 0.571);
+}
+.color5{
+    background-color: rgba(0, 255, 255, 0.457);
+}
+
+
+
+
+
+
+
+
+
+.pagina-7{
+    background: url(https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer div{
+    position: relative;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7F6C9C ;
+    justify-content:center;
+    display: flex;
+    min-height: 50px;
+    width: 99,5%;
+    align-items: center;
+    padding: 10px;
+    z-index: 5
+        
+}
+
+.pie{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1024px){
+    header{
+        background-color: #7F6C9C ;
+}
+    .hh1{
+        font-size: 135px;
+    }
+    .hh2{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    .caja-conteiner{
+        margin-left: 180px;
+    }
+    figure{
+        margin-left: 220px;
+        margin-top: 100px;
+    }
+    .texto{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .cardd-conteiner{
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        
+    }
+    .carta{
+        width: 200px;
+        height: 200px;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px){
+    header{
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .pp{
+        font-size: 20px;
+    } 
+    .hh1{
+        margin-top: 100px;
+        font-size: 90px;
+    }
+    .hh2{
+        margin-top:100px ;
+        font-size: 38px;
+    }
+    .boton1{
+        margin-top: 100px;
+    }
+    .socials{
+        padding: 45px;
+    }
+.caja-conteiner{
+    margin-right: 150px;
+    height: 1200px;
+    width: 850px;
+}
+.list{
+    font-size: 20px;
+}
+
+}
+
+
+@media(max-width: 425px){
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;    
+    }
+    .logo{
+        margin-top: 50px;
+        display: flex;    
+        height: 50px;        
+        align-items: end;
+    }  
+    .hh1{
+        margin-top: 150px;
+        font-size: 50px;
+        -webkit-text-stroke: 0px violet;
+    }
+    .hh2{
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    .boton1{
+        margin-top: 500px;
+    }
+    .socials{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pp{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pie{
+        margin-bottom: 10px;
+    }
+    .caja-conteiner{
+        margin-top: 10px;
+    }
+    .p2{
+        font-size: 36px;
+    }
+    .list{
+        font-size: 20px;
+    }
+    .caja-generos{  
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 1100px;
+        height: 1000px; 
+    }
+}
+
+@media(max-width: 320px){
+    .hh1{
+        margin-top: 150px;
+        font-size: 36px;
+    }
+    .p2{
+        -webkit-text-stroke: 0.5px rgb(153, 37, 220);
+        font-size: 36px;
+        margin-top: 100px;
+    }
+    .carta{
+        text-align: center;
+    }
+    .list{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
